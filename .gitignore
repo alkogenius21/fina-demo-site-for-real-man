@@ -1,0 +1,64 @@
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Local settings
+*.sqlite3
+*.env
+
+# Media
+media/
+
+# Static files
+staticfiles/
+
+# Secret key
+secret_key.txt
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Python-specific files
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+__pycache__/
+
+# Ignore migrations
+**/migrations/
+
+# Ignore local database configuration
+db.sqlite3
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore Django test runner
+.pytest_cache/
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore Docker Compose files
+docker-compose.yml
+docker-compose.override.yml
+
+# Ignore Docker container names
+docker-compose-*.yml
+
+# Ignore Docker images
+*.tar
